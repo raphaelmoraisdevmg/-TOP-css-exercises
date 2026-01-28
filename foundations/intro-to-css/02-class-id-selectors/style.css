@@ -1,5 +1,7 @@
 .first-class{
     background-color: rgb(247, 146, 146);
+    font-size: 24px;
+    font-family: Verdana,'DejaVu Sans',sans-serif;
 }
 #first-id{
     color:rgb(0, 0, 255);
