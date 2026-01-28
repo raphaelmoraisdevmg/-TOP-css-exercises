@@ -1,1 +1,9 @@
-/* Add CSS Styling */
+.first-class{
+    background-color: rgb(247, 146, 146);
+}
+#first-id{
+    color:rgb(0, 0, 255);
+}
+#second-id{
+    background-color: rgb(215, 254, 160);
+}
