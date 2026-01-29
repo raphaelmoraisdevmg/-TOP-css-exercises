@@ -1,2 +1,5 @@
-.first-element{}
-.second-element{}
+.first-element{
+    background-color: black;
+    color: white;
+}
+.second-element{background-color: yellow;}
