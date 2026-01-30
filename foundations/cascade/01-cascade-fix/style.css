@@ -2,10 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+
+.para{ /*there was a two .para rules I moved font-size from second to there and removed 
+  .small-para from that selector in order to solve the problem and meet requiriments*/
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 22px;
 }
 
 .small-para {
@@ -13,9 +15,7 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
+
 
 #confirm-button {    /*fixed using id as it have more specifity*/
   background: green;
@@ -28,15 +28,16 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+/*I change the positions between .text and child rules in order,
+to make css define as final  css rule to my div with the two classes be the .child one*/
