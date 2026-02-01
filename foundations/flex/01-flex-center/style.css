@@ -1,6 +1,10 @@
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
+  display: flex;
+  align-items: center;/*centered the square div */
+  justify-content: center;
+  /*justify-items: center;*/
   width: 400px;
   height: 300px;
 }
